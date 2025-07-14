@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>rotate 360 degree</title>
+    <style>
+        .box{
+            width: 100px;
+            height: 100px;
+            background: linear-gradient(rgb(13, 93, 109), rgb(201, 223, 134));
+            animation: rotate 1s linear infinite;
+        }
+        @keyframes rotate{
+            from{transform: rotate(0deg);}
+            to{transform: rotate(360deg);}
+        }
+    </style>
+</head>
+<body>
+    <div class="box"></div>
+</body>
+</html>

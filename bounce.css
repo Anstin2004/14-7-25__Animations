@@ -1,0 +1,29 @@
+
+.container{
+    
+    margin: 200px;
+    width: fit-content;
+    background-color: rgb(223, 255, 255);
+    color: rgb(4, 42, 75);
+    padding: 2px 20px 2px;
+    border-radius: 30px;
+    text-align: center;
+    transition: 2s;
+    transition: translate 1s linear infinite;
+    margin-left: 600px;
+    border: 2px solid rgb(4, 42, 75);
+}
+.container:hover{
+    background-color: rgb(249, 255, 240);
+    color: rgb(66, 72, 13);
+    border: 2px solid rgb(66, 72, 13);
+    animation-duration: 3s;
+    animation-name: bounce; 
+    
+}
+@keyframes bounce {
+    50%{
+        translate: 0px -90px;
+    }
+
+}

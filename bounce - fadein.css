@@ -1,0 +1,21 @@
+.container{
+    font-size: 3em;
+    width: fit-content;
+    padding: 10px 30px;
+    background-color: rgb(222, 252, 252);
+    margin-left: 600px;
+    margin-top: 300px;
+    border-radius: 30px;
+    color: rgb(9, 75, 75);
+    animation: 3s ease infinite;
+    animation-name: bounce-fade;
+    opacity: 1;
+}
+@keyframes bounce-fade {
+    20%{
+        translate: 0px -200px;
+    }
+    30%{
+        opacity: 0;
+    }
+}
